@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クイズアプリ - クイズ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quizScreen" class="screen">
+            <h2 id="questionText"></h2>
+            <div class="btn-group">
+                <button id="trueButton" class="btn true-btn">○</button>
+                <button id="falseButton" class="btn false-btn">×</button>
+            </div>
+            <p id="result" class="result"></p>
+            <button class="btn" id="nextButton" style="display: none;">次の問題</button>
+            <button class="btn stop-btn" onclick="location.href='index.html'">ホームに戻る</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

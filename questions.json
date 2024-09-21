@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "question": "HTMLはプログラミング言語ですか？",
+      "correct": false
+    },
+    {
+      "question": "CSSはスタイルシート言語ですか？",
+      "correct": true
+    },
+    {
+      "question": "JavaScriptはサーバーサイドの言語ですか？",
+      "correct": false
+    }
+  ]
+}
